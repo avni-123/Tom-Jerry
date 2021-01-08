@@ -55,16 +55,16 @@ function setup(){
     jerry.setCollider("circle", -400, 70);
     jerry.visible = false;
 
-    tom1 = createSprite(500, 300, 20, 40);
+    tom1 = createSprite(500, 350, 20, 40);
     tom1.addAnimation("tomImg1", tomImg1);
-    tom1.scale = 0.1;
+    tom1.scale = 0.07;
 
-    tom4 = createSprite(245, 300, 20, 40);
+    tom4 = createSprite(267, 350, 20, 40);
     tom4.addAnimation("tomImg4", tomImg4);
     tom4.scale = 0.1;
     tom4.visible = false;
 
-    tom = createSprite(500, 300, 20, 40);
+    tom = createSprite(500, 350, 20, 40);
     tom.addAnimation("tom_running", tom_running);
     tom.scale = 0.1;
     tom.debug = false;
@@ -102,7 +102,5 @@ function keyPressed() {
         tom.addAnimation("tom_running", tom);
         tom.changAnimation("tom_running");
     }
-
-    
     
 }
