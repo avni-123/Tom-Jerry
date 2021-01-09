@@ -88,6 +88,8 @@ function draw() {
         tom.visible = false;
     }
 
+    tom4.bounce(jerry4);
+
     drawSprites();
 }
 
